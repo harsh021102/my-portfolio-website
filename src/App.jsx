@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div className='relative main-bg h-screen flex flex-col-reverse sm:flex-row font-oswald'>
+    <div className='main-bg h-screen flex flex-col sm:flex-row font-oswald'>
       <Navbar/>
       <Homepage/>
     </div>
