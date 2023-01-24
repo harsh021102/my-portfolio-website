@@ -4,8 +4,8 @@ import HomeProfileBox from './HomeProfileBox'
 
 const Homepage = () => {
   return (
-    <div className='w-full h-full flex justify-center items-center'>
-        <div className='w-11/12 h-5/6 md:w-10/12 flex flex-col md:flex-row'>
+    <div className='w-full h-full mt-8 bg-red-800'>
+        <div className='w-11/12 h-5/6 md:w-10/12 flex flex-col md:flex-row bg-violet-500'>
             <div className='flex h-1/3 md:h-full md:w-1/3  justify-center items-center'>
                 <HomeProfileBox/>
             </div>
