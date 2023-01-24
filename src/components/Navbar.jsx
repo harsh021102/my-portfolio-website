@@ -5,7 +5,7 @@ import { FaGraduationCap } from "react-icons/fa";
 import { HiOutlineHome } from "react-icons/hi";
 const Navbar = () => {
   return (
-    <div className='absolute h-1/12 w-full rounded-t-xl sm:rounded-none sm:rounded-r-xl sm:h-full flex flex-row md:flex-col justify-center items-center bg-nav-black'>
+    <div className='absolute h-1/12 w-full sm:w-16 md:w-16 rounded-t-xl sm:rounded-none sm:rounded-r-xl sm:h-full flex flex-row md:flex-col justify-center items-center bg-nav-black'>
         <div className='flex sm:flex-col items-center gap-12 sm:gap-8'>
             <button className='my-4 sm:mx-4'>
                 <HiOutlineHome className='text-white text-5xl sm:text-4xl'/>
